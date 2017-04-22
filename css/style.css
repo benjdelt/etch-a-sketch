@@ -1,0 +1,17 @@
+h1 {
+	text-align: center;
+}
+#buttons{
+	max-width: 600px;
+	margin: 30px auto;
+}
+#board {
+	width: 600px;
+	height: 600px;
+	margin: 30px auto;
+	border: 1px solid black;
+}
+.square {
+	background-color: green;	
+
+}
