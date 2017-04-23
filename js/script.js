@@ -8,14 +8,17 @@ $(document).ready(function(){
 	$(this).css('background-color', 'white');
 	});
 
-$('#reset').click(function(){
-	var input = prompt('How many squares per side?');
-	size = input;
-	clear();
-	boardSetUp(size);
-
-
-});
+	$('#reset').click(function(){
+		var input = prompt('How many squares per side? (1-100)');
+		input = parseInt(input);
+		while (isNaN(input) || input < 1 || input > 100) {
+			input = prompt('Please type a valid number between 1 and 100.');
+			input = parseInt(input);
+		}
+		size = input;
+		clear();
+		boardSetUp(size);
+	});
 
 
 });
