@@ -1,17 +1,35 @@
+body {
+	background-color: #9ed1c7;
+}
+header {
+	background-color: #fff093;
+}
 h1 {
 	text-align: center;
+	font-family: sans-serif;
+	font-size: 26px;
+	margin-top: 30px;
+	line-height: 1.5em;
 }
 #buttons{
 	max-width: 600px;
 	margin: 30px auto;
+	font-family: sans-serif;
+}
+#context {
+	float: right;
+}
+p {
+	text-align: justify;
+	margin-top: 20px;
+	display : none;
 }
 #board {
 	width: 600px;
 	height: 600px;
 	margin: 30px auto;
-	border: 1px solid black;
-}
-.square {
-	background-color: green;	
-
+	background-color: #000;	
+	border: 15px solid #ce9e2a;
+	border-radius: 3px;
+	
 }
